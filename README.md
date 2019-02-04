@@ -23,6 +23,7 @@ function <command_name>() {
 Syntax:
 
 """
+
 source <file_name.sh>
 
 """
