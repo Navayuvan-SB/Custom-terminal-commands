@@ -5,20 +5,23 @@
 3. Each custom commands you are creating is a function in shell script
 
 syntax of function:
+
 """
 
 function <command_name>() {
 
-	script or commands
+	<script or commands>
 
 }
 
 """
+
 4. We can pass the parameter to the command. Those parameter can be accessed by "$i" where i is the index of the argument. Eg : $1 - 1st argument, $2 - 2nd argument and so on.
 
 5. After finished editing the file, we want to load the file into our present terminal.
 
 Syntax:
+
 """
 source <file_name.sh>
 
